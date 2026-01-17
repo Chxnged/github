@@ -1,9 +1,12 @@
-@echo off
+import time
+import sys
 
-color 0C
-echo Beta not released
-echo.
+print("\033[91mBeta not released\033[0m\n")
 
-timeout /t 5 >nul
+for i in range(5, 0, -1):
+    sys.stdout.write(f'\rClosing in {i} seconds...')
+    sys.stdout.flush()
+    time.sleep(1)
 
-exit
+print("\n")
+sys.exit(0)
