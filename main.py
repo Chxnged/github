@@ -1,10 +1,10 @@
 import time
 import sys
 
-print("\033[91mBeta not released\033[0m\n")
+print("Beta not released")
 
 for i in range(5, 0, -1):
-    sys.stdout.write(f'\rClosing in {i} seconds...')
+    sys.stdout.write(f'\r{i}')
     sys.stdout.flush()
     time.sleep(1)
 
