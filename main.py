@@ -1,5 +1,7 @@
 @echo off
-
+title VRModz APK
+color 5
+echo.
 echo Beta not released
 echo.
 
