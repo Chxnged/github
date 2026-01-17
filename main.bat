@@ -1,8 +1,9 @@
 @echo off
-title VRModz APK
-color 5
-echo.
-timeout /t 1 >nul
+
+color 0C
 echo Beta not released
+echo.
+
+timeout /t 5 >nul
 
 exit
