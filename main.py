@@ -13,4 +13,4 @@ for /l %%i in (5,-1,1) do (
     echo.
 )
 
-exit
+exit >nul
